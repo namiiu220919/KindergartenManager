@@ -8,6 +8,7 @@ import { NavigationContainer } from '@react-navigation/native'
 
 import { Bai1, Bai2, Bai3 } from './src/screens'
 import Welcome from './src/screens/Welcome'
+import Drawer from './drawer/Drawer'
 
 
 
@@ -18,7 +19,8 @@ function App(): JSX.Element{
       <SafeAreaView style={{flex: 1}} >
           <NavigationContainer >
               <Stack.Navigator initialRouteName='Welcome'>
-              <Stack.Screen name='Welcome' component={Welcome} options={{headerShown: false}}/>
+                <Stack.Screen name='Welcome' component={Welcome} options={{headerShown: false}}/>
+                <Stack.Screen name='Drawer' component={Drawer} options={{ headerShown: false }}/>
                 <Stack.Screen name='Bai1' component={Bai1} options={{headerShown: false}}/>
                 <Stack.Screen name='Bai2' component={Bai2} options={{headerShown: false}}/>
                 <Stack.Screen name='Bai3' component={Bai3} options={{headerShown: false}}/>

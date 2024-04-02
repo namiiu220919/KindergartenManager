@@ -18,6 +18,9 @@ const Welcome = ({navigation}) => {
       <TouchableOpacity style={{padding:10, backgroundColor:'green',margin:10, paddingHorizontal:30, borderRadius:10}} onPress={()=>navigation.navigate('Bai3')}>
         <Text style={{color:'white'}}>Bài 3</Text>
       </TouchableOpacity>
+      <TouchableOpacity style={{padding:10, backgroundColor:'green',margin:10, paddingHorizontal:30, borderRadius:10}} onPress={()=>navigation.navigate('Drawer')}>
+        <Text style={{color:'white'}}>Drawer</Text>
+      </TouchableOpacity>
     </View>
   )
 }
