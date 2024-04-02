@@ -4,11 +4,16 @@ import 'react-native-gesture-handler'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { NavigationContainer } from '@react-navigation/native'
+<<<<<<< HEAD
 
 
 import { Bai1, Bai2, Bai3 } from './src/screens'
 import Welcome from './src/screens/Welcome'
 import Drawer from './drawer/Drawer'
+=======
+import { Bai1, Bai2, Bai3 } from './src/screens'
+import Welcome from './src/screens/Welcome'
+>>>>>>> e95001e7eb81a1b912cc25c92800192fe99ebc67
 
 
 
