@@ -1,5 +1,5 @@
 {
-  "name": "database",
+  "name": "ph31990-lab2",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -12,9 +12,12 @@
     "express": "~4.16.1",
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.5.0",
     "mongoose": "^8.2.4",
     "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.12",
     "nodemon": "^3.1.0"
   }
 }
